@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Form spedizione</title>
+</head>
+<body>
+
+
+
+
+<form method="get" id="delivery" autocomplete="on">
+
+  <div>
+ <div style="inline"> Campo</div>
+  <div style="inline"> Input</div>
+  </div>
+    </div>
+  <div>
+    <div>
+      <label for="name">Nome*</label>
+      <input id="name" type="text" placeholder="Nome"required>
+
+    </div>
+
+  </div>
+
+  <div>
+
+
+      <div> <label for="address">Indirizzo*</label> </div>
+    <div><input type="text" name="address" id="address" placeholder="Via tal dei tali"required>
+
+    </div>
+
+  </div>
+
+
+  <div>
+
+    <div>
+      <label for="po">Civico</label>
+      <input type="number" name="po" id="po" placeholder="1">
+
+    </div>
+
+  </div>
+
+
+  <div>
+
+    <div>
+      <label for="cap">CAP*</label>
+      <input type="number" name="cap" id="cap" placeholder="0000" required></div>
+
+    </div>
+
+  </div>
+
+  <div>
+
+    <div>
+      <label for="province">Provincia*</label>
+      <select name="province" id="province" required>
+        <option value="MI">Milano</option>
+        <option value="RO">Roma</option>
+        <option value="TO">Torino</option>
+        <option value="Other">Altro</option>
+      </select>
+    </div>
+
+  </div>
+
+
+  <div>
+
+    <div>
+      <label for="city">Città*</label>
+      <input type="text" name="city" id="city" placeholder="Milano"required
+      >
+    </div>
+
+  </div>
+
+  <div>
+
+    <div>
+      <label for="country">Nazione*</label>
+      <input type="text" name="contry" id="country" placeholder="Italia"required>
+    </div>
+
+  </div>
+
+  <div>
+
+    <div>
+      <label for="phone">Telefono</label>
+      <input type="tel" name="phone" id="phone"placeholder="23332929938">
+    </div>
+
+  </div>
+
+  <div>
+
+    <div>
+      <label for="email">Email*</label>
+      <input type="email" name="email" id="email" placeholder="placeholder@gmail.it"required>
+    </div>
+
+  </div>
+
+  <div>
+
+    <div>
+      <label for="note">Note</label>
+      <textarea name="Note" id="note" cols="30" rows="10" placeholder="Note"></textarea>
+    </div>
+
+  </div>
+
+  <div>
+
+    <div>
+  <input type="submit" value="Invia">
+    </div>
+
+  </div>
+
+</form>
+
+
+
+<button type="reset" form="delivery"> Reset </button>
+</body>
+</html>
